@@ -1,12 +1,10 @@
 # `<A>`
 
-> Node > Meta > Field > A
-
-## Overview
+> [Node](./node.md) > [Meta](./meta.md) > [Field](./field.md) > A
 
 This tag can be used to save metadata that is compatible with ACF Link fields. See documentation on the 'link' parser for more information on supported attributes and how this element is exported.
 
-### Attributes
+## Attributes
 
 **parser** : 'link'
 
@@ -19,7 +17,7 @@ This tag can be used to save metadata that is compatible with ACF Link fields. S
 ### Setting an external link to open on a new tab:
 
 ```
-<a href="http://monk.com.au" target="_blank" dump >Monk Media</a>
+<a href="http://monk.com.au" target="_blank" >Monk Media</a>
 /*
 Exports as:
 array (
@@ -39,7 +37,7 @@ array (
 
 </page>
 
-<a href="about" dump />
+<a href="about" />
 
 /*
 Exports as:

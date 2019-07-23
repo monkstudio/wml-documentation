@@ -1,8 +1,6 @@
 # `<Alias>`
 
-> Node > Internal > Construct > Alias
-
-## Overview
+> [Node](./node.md) > [Internal]() > [Construct]() > Alias
 
 This tag is used to defined custom special tags. See documentation on the 'alias' parser for information on supported attributes, as well as how this element is exported. Note that this tag should be defined before other elements that require aliased elements, otherwise WPML may not know that these are aliases and may treat them as generic nodes.
 

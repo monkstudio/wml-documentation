@@ -2,16 +2,19 @@
 
 > Node
 
-## Overview
 This is the base node upon which every tag in WPML extends. Any none-special tag written in WPML will be resolved as a `<node>` tag with the tagname set as the node's name attribute if it's not already defined.
 
 For example, a tag written as:
 
-```<hello />```
+```
+<hello />
+```
 
 Is the same as writing
 
-```<node name="hello" />```
+```
+<node name="hello" />
+```
 
 All special tags extend the Node tag as well. Which means you can consider every attribute defined for this tag as global and can have an effect on all WPML tags.
 
