@@ -4,7 +4,7 @@
 
 Alias of [`<term>`](./term.md) for creating terms for the 'category' taxonomy.
 
-Writing:
+For example, writing:
 
 ```
 <category>Example Category</category>

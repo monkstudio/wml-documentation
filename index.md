@@ -12,8 +12,8 @@
 - Working with existing content in WordPress
 - Valueless attributes
 - Attribute-less values
-- Using A Node's Context
-- Evaluating Expressions
+- Context
+- Evaluating Expressions 
 
 ## Advanced Custom Fields
 
@@ -24,45 +24,42 @@
 - [`<Blog>`](./reference/blog.md)
 - [`<Category>`](./reference/category.md)
 - [`<Construct>`](./reference/construct.md)
-- [`<Content>`](./reference/content.md)
-- `<Date>`
-- `<Datetime>`
-- `<Excerpt>`
-- `<Exec>`
-- `<Export>`
-- `<Field>`
-- `<File>`
-- `<Frontpage>`
-- `<Gallery>`
-- `<Group>`
-- `<Header>`
-- `<Ignore>`
-- `<Img>`
-- `<Import>`
-- `<Internal>`
-- `<Layout>`
-- `<Logo>`
-- `<Loop>`
-- `<Map>`
-- `<Menu>`
-- `<Menuitem>`
-- `<Meta>`
-- `<Mixin>`
-- `<Optgroup>`
-- `<Options>`
-- `<Page>`
-- `<Post>`
-- `<Prop>`
-- `<Role>`
-- `<Select>`
-- `<Splice>`
-- `<Tag>`
-- `<Template>`
+- [`<Date>`](./reference/date.md)
+- [`<Datetime>`](./reference/datetime.md)
+- [`<Exec>`](./reference/exec.md)
+- [`<Export>`](./reference/export.md)
+- [`<Field>`](./reference/field.md)
+- [`<File>`](./reference/file.md)
+- [`<Frontpage>`](./reference/frontpage.md)
+- [`<Gallery>`](./reference/gallery.md)
+- [`<Group>`](./reference/group.md)
+- [`<Header>`](./reference/header.md)
+- [`<Ignore>`](./reference/ignore.md)
+- [`<Img>`](./reference/img.md)
+- [`<Import>`](./reference/import.md)
+- [`<Internal>`](./reference/internal.md)
+- [`<Layout>`](./reference/layout.md)
+- [`<Logo>`](./reference/logo.md)
+- [`<Loop>`](./reference/loop.md)
+- [`<Map>`](./reference/map.md)
+- [`<Menu>`](./reference/menu.md)
+- [`<Menuitem>`](./reference/menuitem.md)
+- [`<Meta>`](./reference/meta.md)
+- [`<Mixin>`](./reference/mixin.md)
+- [`<Optgroup>`](./reference/optgroup.md)
+- [`<Options>`](./reference/options.md)
+- [`<Page>`](./reference/page.md)
+- [`<Post>`](./reference/post.md)
+- [`<Prop>`](./reference/prop.md)
+- [`<Role>`](./reference/role.md)
+- [`<Select>`](./reference/select.md)
+- [`<Splice>`](./reference/splice.md)
+- [`<Tag>`](./reference/tag.md)
+- [`<Template>`](./reference/template.md)
 - `<Term>`
 - `<Theme>`
 - `<Time>`
 - `<Timestamp>`
-- `<Title>`
 - `<User>`
 
 ## Parsers
