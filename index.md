@@ -56,7 +56,7 @@
 - [`<Splice>`](./reference/splice.md)
 - [`<Tag>`](./reference/tag.md)
 - [`<Template>`](./reference/template.md)
-- `<Term>`
+- [`<Term>`](./reference/term.md)
 - `<Theme>`
 - `<Time>`
 - `<Timestamp>`
