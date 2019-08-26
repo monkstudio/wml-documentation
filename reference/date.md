@@ -4,7 +4,7 @@
 
 An alias of `<timestamp>` with the 'format' attribute preset to 'Ymd', which formats the exported value so that it is compatible with ACF's 'Date' Field.
 
-See [`<timestamp>`](./timestamp.md) for documentation on supported input for this element, as well as documentation on the [timestamp]() parser.
+See [`<timestamp>`](./timestamp.md) for documentation on supported input for this element, as well as documentation on the [timestamp](../parsers/timestamp.md) parser.
 
 ## Attributes
 

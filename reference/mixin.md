@@ -8,7 +8,7 @@ Similar to mixin functions found in CSS pre-processors like SASS, this element w
 
 The 'link' attribute must be set with the ID of the element to mix-in, or alternatively a valueless attribute with the '&' modifier.
 
-Note only the inner markup of a linked element will be imported.
+Note only the inner tags of a linked element will be imported. This means text embedded directly into the linked element will not be included.
 
 ## Attributes
 

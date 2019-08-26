@@ -56,11 +56,11 @@
 - [`<Splice>`](./reference/splice.md)
 - [`<Tag>`](./reference/tag.md)
 - [`<Template>`](./reference/template.md)
-- `<Term>`
-- `<Theme>`
-- `<Time>`
-- `<Timestamp>`
-- `<User>`
+- [`<Term>`](./reference/term.md)
+- [`<Theme>`](./reference/theme.md)
+- [`<Time>`](./reference/time.md)
+- [`<Timestamp>`](./reference/timestamp.md)
+- [`<User>`](./reference/user.md)
 
 ## Parsers
 - alias
