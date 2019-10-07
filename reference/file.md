@@ -1,4 +1,3 @@
-
 # `<File>`
 
 > [Node](./node.md) > [Meta](./meta.md) > [Field](./field.md) > File

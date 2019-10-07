@@ -16,36 +16,68 @@ Note that by default the frontend admin bar will be hidden for each inserted use
 
 By default, embedded child elements will be passed to [wp_insert_user()](https://codex.wordpress.org/Function_Reference/wp_insert_user)'s $userdata parameter. 
 
-`<field>` : @todo
+`<field>` : Embedded Field elements will be exported as the parent `<user>` metadata.
 
-`<term>` : @todo
+`<term>` : Parent User will be assigned to each of the embedded Term elements.
 
 ## Attributes
 
-pass
+**parser** : 'user'
 
-@todo
+**pass**
 
-name
+The user password. Note that this is required when creating users in WordPress.
 
-@todo
+**name**
 
-email
+This attribute is utilised for setting the user's login name. Also required.
 
-@todo
+**email**
 
-role
+The user's email address.
 
-@todo
+**role**
+
+This attribute can either receive a string as a single role, or an array of multiple roles to assign to the exported user.
 
 ## Valueless Attributes
 
-'@' : @todo
+By default, valueless attributes without a modifier will be set as the inserted user's role.
 
-'+' : @todo
+### Valueless Attribute Modifiers
 
-''  : @todo
+'+' : Each valueless attribute added with this modifier will be appended to the user's role array.
 
 ## Attribute-less Value
 
+Attribute-less values can be used as shorthand for assigned the user's password.
+
 ## Examples
+
+### Basic Usage:
+
+Insert a user with the default role (usually Subscriber).
+
+```
+<user name=johndoe pass='password1234' />
+```
+
+### Using shorthand
+
+Create a user with the role of editor
+
+```
+<user @eddy "my password" editor />
+```
+
+### Assigning multiple roles
+
+```
+<user @jane 'password' +editor +author >
+
+    <first_name 'Jane' />
+    <last_name>Doe</last_name>
+    <display_name>Jane Doe</display_name>
+
+</user>
+```

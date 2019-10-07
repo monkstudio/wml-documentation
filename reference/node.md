@@ -157,6 +157,18 @@ Don't forget that valueless attributes defined for `<node>` are applicable to al
 
 **lorem** : Alias for attribute: `parser='lorem'`.
 
+#### Global Modifiers
+
+'!' : @todo
+
+'#' : @todo
+
+'&' : @todo
+
+'=' : @todo
+
+'@' : @todo
+
 ## Attribute-less Values
 
 None

@@ -30,6 +30,8 @@
 - [`<Export>`](./reference/export.md)
 - [`<Field>`](./reference/field.md)
 - [`<File>`](./reference/file.md)
+- [`<Flush>`](./reference/flush.md)
+- `<Form>`
 - [`<Frontpage>`](./reference/frontpage.md)
 - [`<Gallery>`](./reference/gallery.md)
 - [`<Group>`](./reference/group.md)
@@ -39,6 +41,7 @@
 - [`<Import>`](./reference/import.md)
 - [`<Internal>`](./reference/internal.md)
 - [`<Layout>`](./reference/layout.md)
+- `<Layouts>`
 - [`<Logo>`](./reference/logo.md)
 - [`<Loop>`](./reference/loop.md)
 - [`<Map>`](./reference/map.md)
@@ -51,8 +54,10 @@
 - [`<Page>`](./reference/page.md)
 - [`<Post>`](./reference/post.md)
 - [`<Prop>`](./reference/prop.md)
+- `<Repeater>`
 - [`<Role>`](./reference/role.md)
 - [`<Select>`](./reference/select.md)
+- `<Set>`
 - [`<Splice>`](./reference/splice.md)
 - [`<Tag>`](./reference/tag.md)
 - [`<Template>`](./reference/template.md)
@@ -67,6 +72,7 @@
 - exec
 - export
 - file
+- flush
 - group
 - header_image
 - import
@@ -83,7 +89,9 @@
 - post
 - prop
 - raw
+- reserved
 - role
+- set
 - term
 - theme_mod
 - time
