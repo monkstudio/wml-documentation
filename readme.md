@@ -31,7 +31,6 @@
 - [`<Field>`](./reference/field.md)
 - [`<File>`](./reference/file.md)
 - [`<Flush>`](./reference/flush.md)
-- `<Form>`
 - [`<Frontpage>`](./reference/frontpage.md)
 - [`<Gallery>`](./reference/gallery.md)
 - [`<Group>`](./reference/group.md)
@@ -41,7 +40,7 @@
 - [`<Import>`](./reference/import.md)
 - [`<Internal>`](./reference/internal.md)
 - [`<Layout>`](./reference/layout.md)
-- `<Layouts>`
+- [`<Layouts>`](./reference/layouts.md)
 - [`<Logo>`](./reference/logo.md)
 - [`<Loop>`](./reference/loop.md)
 - [`<Map>`](./reference/map.md)
@@ -54,8 +53,9 @@
 - [`<Page>`](./reference/page.md)
 - [`<Post>`](./reference/post.md)
 - [`<Prop>`](./reference/prop.md)
-- `<Repeater>`
+- [`<Repeater>`](./reference/repeater.md)
 - [`<Role>`](./reference/role.md)
+- [`<Row>`](./reference/row.md)
 - [`<Select>`](./reference/select.md)
 - `<Set>`
 - [`<Splice>`](./reference/splice.md)
