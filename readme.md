@@ -57,7 +57,7 @@
 - [`<Role>`](./reference/role.md)
 - [`<Row>`](./reference/row.md)
 - [`<Select>`](./reference/select.md)
-- `<Set>`
+- [`<Set>`](./reference/set.md)
 - [`<Splice>`](./reference/splice.md)
 - [`<Tag>`](./reference/tag.md)
 - [`<Template>`](./reference/template.md)
